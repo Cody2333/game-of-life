@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "game_of_life.py", line 38, in <module>
+IOError: [Errno 2] No such file or directory: 'origin_template'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "threading.pyc", line 810, in __bootstrap_inner
+  File "game_of_life.py", line 519, in run
+  File "game_of_life.py", line 327, in animate
+  File "game_of_life.py", line 324, in simulate
+  File "game_of_life.py", line 207, in reset_state
+  File "game_of_life.py", line 135, in reset_status
+  File "game_of_life.py", line 119, in set_live
+  File "graphics.pyc", line 399, in draw
+  File "graphics.pyc", line 519, in _draw
+  File "Tkinter.pyc", line 2322, in create_rectangle
+  File "Tkinter.pyc", line 2301, in _create
+ValueError: invalid literal for int() with base 10: 'expected boolean value but got "??"'
+
+Traceback (most recent call last):
+  File "game_of_life.py", line 813, in <module>
+  File "game_of_life.py", line 671, in main
+  File "graphics.pyc", line 265, in getMouse
+graphics.GraphicsError: getMouse in closed window
